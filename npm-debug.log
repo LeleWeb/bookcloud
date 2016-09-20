@@ -1,0 +1,64 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/home/zhangwei/workspace/bookcloud',
+5 verbose install   [ 'bower',
+5 verbose install     'http-server',
+5 verbose install     'jasmine-core',
+5 verbose install     'karma',
+5 verbose install     'karma-chrome-launcher',
+5 verbose install     'karma-firefox-launcher',
+5 verbose install     'karma-jasmine',
+5 verbose install     'karma-junit-reporter',
+5 verbose install     'protractor' ] ]
+6 info preinstall angular-seed@0.0.0
+7 verbose readDependencies using package.json deps
+8 verbose already installed skipping bower@^1.7.7 /home/zhangwei/workspace/bookcloud
+9 verbose already installed skipping http-server@^0.9.0 /home/zhangwei/workspace/bookcloud
+10 verbose already installed skipping jasmine-core@^2.4.1 /home/zhangwei/workspace/bookcloud
+11 verbose already installed skipping karma@^0.13.22 /home/zhangwei/workspace/bookcloud
+12 verbose already installed skipping karma-chrome-launcher@^0.2.3 /home/zhangwei/workspace/bookcloud
+13 verbose already installed skipping karma-firefox-launcher@^0.1.7 /home/zhangwei/workspace/bookcloud
+14 verbose already installed skipping karma-jasmine@^0.3.8 /home/zhangwei/workspace/bookcloud
+15 verbose already installed skipping karma-junit-reporter@^0.4.1 /home/zhangwei/workspace/bookcloud
+16 verbose already installed skipping protractor@^3.2.2 /home/zhangwei/workspace/bookcloud
+17 silly resolved []
+18 info build /home/zhangwei/workspace/bookcloud
+19 verbose linkStuff [ false, false, false, '/home/zhangwei/workspace' ]
+20 info linkStuff angular-seed@0.0.0
+21 verbose linkBins angular-seed@0.0.0
+22 verbose linkMans angular-seed@0.0.0
+23 verbose rebuildBundles angular-seed@0.0.0
+24 verbose rebuildBundles [ '.bin',
+24 verbose rebuildBundles   'bower',
+24 verbose rebuildBundles   'http-server',
+24 verbose rebuildBundles   'jasmine-core',
+24 verbose rebuildBundles   'karma',
+24 verbose rebuildBundles   'karma-chrome-launcher',
+24 verbose rebuildBundles   'karma-firefox-launcher',
+24 verbose rebuildBundles   'karma-jasmine',
+24 verbose rebuildBundles   'karma-junit-reporter',
+24 verbose rebuildBundles   'protractor' ]
+25 info install angular-seed@0.0.0
+26 info postinstall angular-seed@0.0.0
+27 verbose unsafe-perm in lifecycle true
+28 info angular-seed@0.0.0 Failed to exec postinstall script
+29 error angular-seed@0.0.0 postinstall: `bower install`
+29 error Exit status 8
+30 error Failed at the angular-seed@0.0.0 postinstall script.
+30 error This is most likely a problem with the angular-seed package,
+30 error not with npm itself.
+30 error Tell the author that this fails on your system:
+30 error     bower install
+30 error You can get their info via:
+30 error     npm owner ls angular-seed
+30 error There is likely additional logging output above.
+31 error System Linux 3.13.0-86-generic
+32 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+33 error cwd /home/zhangwei/workspace/bookcloud
+34 error node -v v0.10.32
+35 error npm -v 1.4.28
+36 error code ELIFECYCLE
+37 verbose exit [ 1, true ]
